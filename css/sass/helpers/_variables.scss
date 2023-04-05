@@ -1,4 +1,10 @@
-$maxMobile: 767px;
-$maxSmall: 992px;
+$maxMobile: '(max-width:767px)';
+$maxSmall: '(max-width:991px)';
 
-$minMedium: '';
+$minSmall: '(max-width:768px)';
+
+$redColor: #e2494c;
+$greyColor: #9c9c9c;
+
+$float-left: left;
+$float-right: right;
