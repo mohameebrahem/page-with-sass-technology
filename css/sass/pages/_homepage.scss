@@ -34,13 +34,67 @@
 .services {
   .service-box {
     float: $float-left;
-    width: calc(100% / 3);
-    padding-right: 10px;
-    &:not(:last-of-type) .service-title {
+    width: (100% / 3);
+
+    &:not(:last-of-type) {
+      padding-right: 20px;
+    }
+    .service-title {
+      color: #666;
       i {
+        font-size: 35px;
+        position: relative;
+        top: 4px;
       }
     }
+    .service-desc {
+      color: #777;
+      line-height: 1.5;
+    }
     .link {
+      color: $redColor;
+      text-decoration: none;
+    }
+  }
+}
+
+.our-players {
+  .player-box {
+    float: $float-left;
+    width: (100% / 5);
+
+    &:not(:last-of-type) {
+      padding-right: 20px;
+    }
+    .player-img {
+      max-width: 100%;
+    }
+    .player-title {
+      font-weight: normal;
+      color: #666;
+      span {
+        font-weight: bold;
+      }
+    }
+    .player-desc {
+      color: #777;
+      line-height: 1.5;
+    }
+    .link {
+      color: $redColor;
+      text-decoration: none;
+    }
+  }
+}
+.lorem-ipsum {
+  .lorem-box {
+    float: $float-left;
+    width: (94% / 3);
+    &:not(:last-of-type) {
+      margin-right: 3%;
+    }
+    .lorem-img {
+      max-width: 100%;
     }
   }
 }

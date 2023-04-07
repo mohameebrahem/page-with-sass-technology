@@ -1,0 +1,19 @@
+.footer {
+  background-color: #e2e2e2;
+  overflow: hidden;
+
+  .gallery,
+  .info,
+  .contact {
+    float: $float-left;
+  }
+  .gallery {
+    width: 50%;
+  }
+  .info {
+    width: 25%;
+  }
+  .contact {
+    width: 25%;
+  }
+}

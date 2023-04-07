@@ -10,6 +10,10 @@
   position: relative;
 }
 
+.clearfix {
+  clear: both;
+}
+
 .head-with-border {
   position: relative;
 }
@@ -34,8 +38,24 @@
   z-index: -1;
 }
 
+.main-button {
+  background-color: rgba(226, 73, 76, 0.8);
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  min-width: 120px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main-button:hover {
+  background-color: #e2494c;
+}
+
 body {
-  background-color: #f6f6f6;
   font-family: Tahoma;
 }
 
@@ -113,5 +133,79 @@ li {
 .services .service-box {
   float: left;
   width: 33.3333333333%;
-  padding-right: 10px;
+}
+.services .service-box:not(:last-of-type) {
+  padding-right: 20px;
+}
+.services .service-box .service-title {
+  color: #666;
+}
+.services .service-box .service-title i {
+  font-size: 35px;
+  position: relative;
+  top: 4px;
+}
+.services .service-box .service-desc {
+  color: #777;
+  line-height: 1.5;
+}
+.services .service-box .link {
+  color: #e2494c;
+  text-decoration: none;
+}
+
+.our-players .player-box {
+  float: left;
+  width: 20%;
+}
+.our-players .player-box:not(:last-of-type) {
+  padding-right: 20px;
+}
+.our-players .player-box .player-img {
+  max-width: 100%;
+}
+.our-players .player-box .player-title {
+  font-weight: normal;
+  color: #666;
+}
+.our-players .player-box .player-title span {
+  font-weight: bold;
+}
+.our-players .player-box .player-desc {
+  color: #777;
+  line-height: 1.5;
+}
+.our-players .player-box .link {
+  color: #e2494c;
+  text-decoration: none;
+}
+
+.lorem-ipsum .lorem-box {
+  float: left;
+  width: 31.3333333333%;
+}
+.lorem-ipsum .lorem-box:not(:last-of-type) {
+  margin-right: 3%;
+}
+.lorem-ipsum .lorem-box .lorem-img {
+  max-width: 100%;
+}
+
+.footer {
+  background-color: #e2e2e2;
+  overflow: hidden;
+}
+.footer .gallery,
+.footer .info,
+.footer .contact {
+  float: left;
+}
+.footer .gallery {
+  width: 50%;
+}
+.footer .info {
+  width: 25%;
+}
+.footer .contact {
+  width: 25%;
 }/*# sourceMappingURL=website.css.map */
