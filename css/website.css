@@ -194,6 +194,8 @@ li {
 .footer {
   background-color: #e2e2e2;
   overflow: hidden;
+  padding-top: 30px;
+  margin-top: 50px;
 }
 .footer .gallery,
 .footer .info,
@@ -203,9 +205,80 @@ li {
 .footer .gallery {
   width: 50%;
 }
+.footer .gallery .img-box {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.footer .gallery .img-box img {
+  float: left;
+  width: 150px;
+  height: 150px;
+}
+.footer .gallery .img-box .text {
+  float: left;
+  width: calc(100% - 180px);
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.footer .gallery .img-box .text h4 {
+  color: #e2494c;
+  margin: 20px 0 0;
+}
+.footer .gallery .img-box .text p {
+  color: #888;
+  line-height: 1.9;
+  margin-top: 8px;
+}
 .footer .info {
   width: 25%;
 }
+.footer .info ul {
+  color: #888;
+  line-height: 1.8;
+}
+.footer .info ul li span {
+  color: #e2494c;
+  font-weight: bold;
+}
+.footer .info h4 {
+  color: #888;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.footer .info p {
+  color: #888;
+  margin-top: 8px;
+}
 .footer .contact {
   width: 25%;
+}
+.footer .contact input[type=text],
+.footer .contact input[type=email],
+.footer .contact textarea {
+  border: 1px solid #c9c9c9;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  width: 100%;
+}
+.footer .contact textarea {
+  height: 140px;
+}
+.footer .section-title {
+  color: #444;
+  font-weight: normal;
+}
+.footer .copyright {
+  padding: 25px 0;
+  border-top: 1px solid #c5c5c5;
+  overflow: hidden;
+  color: #888;
+}
+.footer .copyright .text,
+.footer .copyright .author {
+  float: left;
+  width: 50%;
+}
+.footer .copyright .author {
+  text-align: right;
 }/*# sourceMappingURL=website.css.map */
