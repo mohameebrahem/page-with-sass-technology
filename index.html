@@ -15,6 +15,9 @@
         <div class="logo">
           <h1>Composition</h1>
           <p>Free Psd Websote Template</p>
+          <button class="the-toggler">
+            <span></span><span></span><span></span>
+          </button>
         </div>
         <ul class="navbar">
           <li><a href="">Homepage</a></li>
@@ -47,7 +50,7 @@
         <div class="head-with-border">
           <h2>Our Services</h2>
         </div>
-        <div class="service-box">
+        <div class="service-box text-center-xs">
           <h3 class="service-title"><i class="fa fa-home"></i>Testing Title</h3>
           <p class="service-desc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla
@@ -56,7 +59,7 @@
           </p>
           <a class="link" href="#">Read More ...</a>
         </div>
-        <div class="service-box">
+        <div class="service-box text-center-xs">
           <h3 class="service-title">
             <i class="fa fa-users"></i>Testing Title
           </h3>
@@ -67,7 +70,7 @@
           </p>
           <a class="link" href="#">Read More ...</a>
         </div>
-        <div class="service-box">
+        <div class="service-box text-center-xs">
           <h3 class="service-title"><i class="fa fa-gear"></i>Testing Title</h3>
           <p class="service-desc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla
@@ -83,7 +86,7 @@
     <div class="our-players">
       <div class="container">
         <div class="head-with-border">
-          <h2>Our Services</h2>
+          <h2>Our Players</h2>
         </div>
         <div class="player-box">
           <img
@@ -233,5 +236,13 @@
         </div>
       </div>
     </div>
+    <script src="js/jquery.js"></script>
+    <script>
+      $(function () {
+        $('.the-toggler').on('click', function () {
+          $('.navbar').slideToggle();
+        });
+      });
+    </script>
   </body>
 </html>
