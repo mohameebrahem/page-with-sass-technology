@@ -9,6 +9,10 @@
     margin: 40px auto;
     padding: 10px 15px;
     text-transform: uppercase;
+    @media #{$maxMobile} {
+      max-width: 300px;
+    }
+
     &::before {
       content: '';
       position: absolute;

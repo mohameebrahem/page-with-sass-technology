@@ -20,8 +20,6 @@
 
     margin-bottom: 0;
   }
-  p {
-  }
 }
 .navbar {
   overflow: hidden;
@@ -52,7 +50,12 @@
     @media #{$maxMobile} {
       float: none;
       display: block;
+      width: 100%;
+      text-align: $text-left;
+      padding-left: 10px;
+      padding-right: 10px;
     }
+
     a {
       display: block;
       padding: 20px 10px;
